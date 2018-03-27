@@ -1,11 +1,11 @@
 {
   "name": "as-json-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "create http json service in one command",
   "main": "lib/index.js",
   "bin": {
-    "as-json-service": "dist/cli.js",
-    "as-json-service-config": "dist/cli.js"
+    "as-json-service": "lib/cli.js",
+    "as-json-service-config": "lib/generate-config.js"
   },
   "scripts": {
     "test1": "node lib/cli.js --file=tests/test1.js",
