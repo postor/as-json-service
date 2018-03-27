@@ -1,7 +1,7 @@
 {
   "name": "as-json-service",
-  "version": "1.0.2",
-  "description": "create http json service in one command",
+  "version": "1.0.3",
+  "description": "create http json api service in one command | 一键启动基于http的json接口服务",
   "main": "lib/index.js",
   "bin": {
     "as-json-service": "lib/cli.js",
