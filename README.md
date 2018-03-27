@@ -1,6 +1,6 @@
 # as-json-service
 
-create http json service from anything
+create http json service in one command
 
 ## usage
 

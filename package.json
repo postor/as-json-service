@@ -1,8 +1,8 @@
 {
   "name": "as-json-service",
   "version": "1.0.0",
-  "description": "create http json service from a object",
-  "main": "index.js",
+  "description": "create http json service in one command",
+  "main": "lib/index.js",
   "bin": {
     "as-json-service": "dist/cli.js",
     "as-json-service-config": "dist/cli.js"
