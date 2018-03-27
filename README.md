@@ -31,18 +31,22 @@ as-json-service --file=test.js
 test command
 
 ```
-curl http://localhost:3000/say-hi
+curl http://localhost:3000/say-hi?name=world
 ```
-
 
 ## micro service
 
 I want build a project witch will easily convert into micro services, so an agent that able to handle it from both network and local module is more convenient, the low level behaver is configed in a file so you can develop with local module and test/publish with network
 
+```
+npm i as-json-service --save
+```
 
 test2.js where you will need to use a module/service
 
 ```
+const { join } = require('path')
+
 // old way
 // const c1 = require('./test.js')
 
@@ -88,7 +92,7 @@ as-json-service --file=test2.js --port=3001
 test command
 
 ```
-curl http://localhost:3001/say-hi
+curl http://localhost:3001/say-hi?name=postor
 ```
 
 
