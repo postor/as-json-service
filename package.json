@@ -1,26 +1,27 @@
 {
-  "name": "class2service",
+  "name": "as-json-service",
   "version": "1.0.0",
-  "description": "create http json service from a Class",
+  "description": "create http json service from a object",
   "main": "index.js",
   "bin": {
-    "class2service": "dist/cli.js"
+    "as-json-service": "dist/cli.js",
+    "as-json-service-config": "dist/cli.js"
   },
   "scripts": {
-    "test1": "node lib/cli.js --file=tests/C1.js",
-    "test2": "node lib/generate-config.js --file=tests/C1.js && node lib/cli.js --file=tests/C2.js --port=3001"
+    "test1": "node lib/cli.js --file=tests/test1.js",
+    "test2": "node lib/generate-config.js --file=tests/test1.js && node lib/cli.js --file=tests/test2.js --port=3001"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/postor/class2service.git"
+    "url": "git+https://github.com/postor/as-json-service.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/postor/class2service/issues"
+    "url": "https://github.com/postor/as-json-service/issues"
   },
-  "homepage": "https://github.com/postor/class2service#readme",
+  "homepage": "https://github.com/postor/as-json-service#readme",
   "dependencies": {
     "args": "^3.0.8",
     "body-parser": "^1.18.2",

@@ -2,4 +2,5 @@
 /package-lock.json
 /yarn-error.log
 /yarn.lock
-/.class2service.json
+/..as-json-service.json
+/.as-json-service.json

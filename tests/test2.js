@@ -1,8 +1,7 @@
 const { join } = require('path')
 const { getAgent } = require('../lib/index')
 
-const c1 = getAgent(join(__dirname, 'C1.js'))
-console.log(c1)
+const c1 = getAgent(join(__dirname, 'test1.js'))
 
 class C2 {
 
